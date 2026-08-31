@@ -1,0 +1,16 @@
+{
+  "name": "standardcompute-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Standard Compute — list models, check endpoint health, and read plan pricing from any MCP client (Claude Code, Claude Desktop, opencode)",
+  "type": "module",
+  "bin": { "standardcompute-mcp": "src/index.js" },
+  "main": "src/index.js",
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/henrikdukefoss/standardcompute-mcp" },
+  "keywords": ["mcp", "model-context-protocol", "llm", "inference", "standardcompute", "claude"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
