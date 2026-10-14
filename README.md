@@ -54,6 +54,15 @@ claude mcp add standardcompute -e STANDARDCOMPUTE_API_KEY=your-key -- node /path
 }
 ```
 
+## Related guides
+
+On standardcompute.com:
+
+- [Getting started](https://standardcompute.com/getting-started): create a key and make the first request.
+- [Claude Code setup](https://standardcompute.com/integrations/claude-code) and [OpenCode setup](https://standardcompute.com/integrations/opencode): using the gateway as the model provider in those clients, not only as an MCP server.
+- [Models](https://standardcompute.com/models): the public catalog behind `list_models`.
+- [Pricing](https://standardcompute.com/pricing): the plans that `plan_pricing` reports.
+
 ## Environment
 
 - `STANDARDCOMPUTE_API_KEY` — from your [dashboard](https://standardcompute.com/dashboard); optional for `endpoint_health` and `plan_pricing`
